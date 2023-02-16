@@ -1,10 +1,1 @@
- Volume in drive D is New Volume
- Volume Serial Number is 7460-8C4A
-
- Directory of D:\Gittest
-
-16-02-2023  10:54 PM    <DIR>          .
-16-02-2023  10:54 PM    <DIR>          ..
-16-02-2023  10:54 PM                 0 test1.txt
-               1 File(s)              0 bytes
-               2 Dir(s)  199,896,612,864 bytes free
+my name is himanshu
