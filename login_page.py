@@ -1,28 +1,38 @@
 from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 import unittest
 import time
+import HtmlTestRunner
 
 
 class LoginAdminDashboard(unittest.TestCase):
     print("case started")
 
     @classmethod
-    def setupBrowser(bro):
-        bro.driver = webdriver.Chrome(executable_path='..\Driver\chromedriver.exe')
-        bro.driver.implicitly_wait(30)
-        bro.driver.maximize_window()
+    def setUpClass(cls):
+        cls.driver = webdriver.Chrome()
+        cls.driver.implicitly_wait(10)
+        cls.driver.maximize_window()
 
-        print("successfully opened")
-
-    def loginCredentials(log):
-        log.driver.get("https://www.qa-eflex.okaygo.in/")
-        log.driver.find_element_by_id("emailId").send_keys("himanshu007")
-        log.driver.find_element_by_id("password").send_keys("Himanshu@123")
-        log.driver.find_element_by_class("Login_loginButton__14J9m").send_keys("Login")
+    def test_login(self):
+        self.driver.get("https://www.qa-eflex.okaygo.in/")
+        self.driver_wait = WebDriverWait(self.driver, 10)
+        email_input = self.driver_wait.until(EC.visibility_of_element_located((By.ID, "emailId")))
+        email_input.send_keys("himanshu007")
+        password_input = self.driver_wait.until(EC.visibility_of_element_located((By.ID, "password")))
+        password_input.send_keys("Himanshu@123")
+        login_button = self.driver_wait.until(
+            EC.visibility_of_element_located((By.CLASS_NAME, "Login_loginButton__14J9m")))
+        login_button.click()
 
     @classmethod
-    def closeBrowser(bro):
-        bro.time.sleep(3)
-        bro.driver.close()
+    def tearDownClass(cls):
+        time.sleep(2)
+        cls.driver.close()
+        cls.driver.quit()
+        print("test completed")
 
-        print("successfully logedin")
+    if __name__ == '__main__':
+        unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='C:/Users/himan/PycharmProjects/Okaygo1/reports'))
