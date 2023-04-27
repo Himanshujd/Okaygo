@@ -58,6 +58,7 @@ class LoginAdminDashboard(unittest.TestCase):
             EC.visibility_of_element_located((By.CLASS_NAME, "Login_loginButton__14J9m")))
         login_button.click()
 
+
     @classmethod
     def tearDownClass(cls):
         time.sleep(2)
