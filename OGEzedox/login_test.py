@@ -1,14 +1,13 @@
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
 import unittest
 import time
-import HtmlTestRunner
 
 
 class LoginAdminDashboard(unittest.TestCase):
-    print("case started")
+    driver = None  # Class variable to store the WebDriver instance
 
     @classmethod
     def setUpClass(cls):
@@ -32,7 +31,7 @@ class LoginAdminDashboard(unittest.TestCase):
         time.sleep(2)
         cls.driver.close()
         cls.driver.quit()
-        print("test completed")
 
-    if __name__ == '__main__':
-        unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='C:/Users/himan/PycharmProjects/Okaygo1/reports'))
+
+if __name__ == '__main__':
+    unittest.main()
