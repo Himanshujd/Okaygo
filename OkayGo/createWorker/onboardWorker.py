@@ -26,7 +26,7 @@ class TestOnboardWorker(unittest.TestCase):
         try:
             self.login()
             self.navigate_to_worker_section()
-            self.select_worker_type("Non-LMD")
+            self.select_worker_type()
             self.upload_file()
             # print("File uploaded successfully")
         except Exception as e:
@@ -48,14 +48,14 @@ class TestOnboardWorker(unittest.TestCase):
             EC.visibility_of_element_located((By.XPATH, '//*[@id="menu-"]/div[3]/ul/li[2]')))
         worker.click()
 
-    def select_worker_type(self, worker_type):
+    def select_worker_type(self):
         select_radio = self.driver_wait.until(EC.visibility_of_element_located(
             (By.XPATH, '/html/body/div[2]/div[3]/div/div[2]/div[1]/label[2]/span[1]/span[1]')))
         select_radio.click()
 
     def upload_file(self):
         try:
-            file_path = "D:/projects/OkayGo/createWorker/non-lmd_onboarding_tempate (4).xlsx"
+            file_path = "D:/projects/OkayGo/createWorker/non-lmd_onboarding_template (4).xlsx"
             print(f"Attempting to upload file: {file_path}")
 
             # # Wait for the browse button to be clickable
@@ -79,11 +79,12 @@ class TestOnboardWorker(unittest.TestCase):
             print("File uploaded successfully")
 
         except ElementNotInteractableException:
-            print("File input element is not interactable. Make sure it's visible and enabled.")
+            print("File input element is not intractable. Make sure it's visible and enabled.")
 
         except Exception as e:
             print(f"Exception occurred while uploading file: {e}")
             print(traceback.format_exc())
+
     def tearDown(self):
         time.sleep(2)
 
@@ -98,4 +99,4 @@ class TestOnboardWorker(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='D://projects/OkayGo/Reports'))
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='D:\\projects\\OkayGo\\Reports'))

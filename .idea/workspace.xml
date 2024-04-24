@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b20b67bc-188b-465b-b172-d5eee3f962a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/OkayGo/Reports/TestResults___main__.TestOnboardWorker_2024-04-24_18-09-24.html" afterDir="false" />
+    <list default="true" id="b20b67bc-188b-465b-b172-d5eee3f962a6" name="Changes" comment="kk">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OGEzedox/non-lmd_onboarding_tempate (4).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/OkayGo/createWorker/non-lmd_onboarding_tempate (4).xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OkayGo/Login test case/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/OkayGo/Login test case/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OkayGo/Reports/TestResults___main__.TestOnboardWorker_2024-04-24_18-09-24.html" beforeDir="false" afterPath="$PROJECT_DIR$/OkayGo/Reports/TestResults___main__.TestOnboardWorker_2024-04-24_18-09-24.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OkayGo/createWorker/onboardWorker.py" beforeDir="false" afterPath="$PROJECT_DIR$/OkayGo/createWorker/onboardWorker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +63,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "WorkSpace",
+    "git-widget-placeholder": "workspace",
     "run.code.analysis.last.selected.profile": "aDefault",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
@@ -82,6 +80,9 @@
       <module name="Okaygo1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OkayGo/createWorker" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -186,6 +187,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="kk" />
+    <option name="LAST_COMMIT_MESSAGE" value="kk" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
