@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 
+
 class WebDriver(ABC):
 
     @abstractmethod
@@ -21,10 +22,8 @@ class FirefoxDriver(WebDriver):
     def capturingScreenshot(self):
         print("Capturing screenshot")
 
-
     def click(self):
         print("Clicking in Firefox")
-
 
 
 obj = ChromeDriver()
