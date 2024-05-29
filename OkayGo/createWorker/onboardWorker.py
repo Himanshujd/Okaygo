@@ -8,7 +8,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-
 class TestOnboardWorker(unittest.TestCase):
 
     @classmethod
@@ -28,7 +27,6 @@ class TestOnboardWorker(unittest.TestCase):
             self.navigate_to_worker_section()
             self.select_worker_type()
             self.upload_file()
-            # print("File uploaded successfully")
         except Exception as e:
             print(f"Exception occurred: {e}")
 
@@ -38,7 +36,7 @@ class TestOnboardWorker(unittest.TestCase):
         password_input = self.driver_wait.until(EC.visibility_of_element_located((By.ID, "password")))
         password_input.send_keys("Himanshu@123")
         login_button = self.driver_wait.until(
-            EC.visibility_of_element_located((By.CLASS_NAME, "Login_loginButton__14J9m")))
+            EC.element_to_be_clickable((By.CLASS_NAME, "Login_loginButton__14J9m")))
         login_button.click()
 
     def navigate_to_worker_section(self):
@@ -49,7 +47,7 @@ class TestOnboardWorker(unittest.TestCase):
         worker.click()
 
     def select_worker_type(self):
-        select_radio = self.driver_wait.until(EC.visibility_of_element_located(
+        select_radio = self.driver_wait.until(EC.element_to_be_clickable(
             (By.XPATH, '/html/body/div[2]/div[3]/div/div[2]/div[1]/label[2]/span[1]/span[1]')))
         select_radio.click()
 
@@ -58,19 +56,10 @@ class TestOnboardWorker(unittest.TestCase):
             file_path = "D:/projects/OkayGo/createWorker/non-lmd_onboarding_template (4).xlsx"
             print(f"Attempting to upload file: {file_path}")
 
-            # # Wait for the browse button to be clickable
-            # browse = self.driver_wait.until(
-            #     EC.element_to_be_clickable((By.XPATH, "//span[contains(text(), 'Browse File')]")))
-            # browse.click()
-
-            # Wait for the file input to be present
             file_input = self.driver_wait.until(
                 EC.presence_of_element_located((By.XPATH, "//input[@type='file']")))
-
-            # Send the file path to the file input
             file_input.send_keys(file_path)
 
-            # Wait for the file to be uploaded
             print("Upload in process")
             upload_button = self.driver_wait.until(EC.element_to_be_clickable(
                 (By.XPATH, "/html/body/div[2]/div[3]/div/div[3]/button")))
@@ -79,8 +68,7 @@ class TestOnboardWorker(unittest.TestCase):
             print("File uploaded successfully")
 
         except ElementNotInteractableException:
-            print("File input element is not intractable. Make sure it's visible and enabled.")
-
+            print("File input element is not interactable. Make sure it's visible and enabled.")
         except Exception as e:
             print(f"Exception occurred while uploading file: {e}")
             print(traceback.format_exc())
@@ -96,7 +84,6 @@ class TestOnboardWorker(unittest.TestCase):
             print("Test suite completed")
         except WebDriverException as e:
             print(f"WebDriverException occurred during tearDown: {e}")
-
 
 if __name__ == '__main__':
     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='D:\\projects\\OkayGo\\Reports'))
