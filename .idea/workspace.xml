@@ -5,22 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b20b67bc-188b-465b-b172-d5eee3f962a6" name="Changes" comment="kk">
-      <change afterPath="$PROJECT_DIR$/.idea/file.template.settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OkayGo/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OkayGo/login/login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OkayGo/login/test.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OkayGo/markAttedance/workerAttendance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OkayGo/testAddEditJob/jobs_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OkayGo/testAddEditJob/test_job_creation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OkayGo/testAddEditJob/testjob.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workSpace/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OkayGo/applicationDB/updateStatus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OkayGo/applicationDB/update_status_timeout.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projects.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OkayGo/Login test case/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/OkayGo/login/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OkayGo/Login test case/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/OkayGo/addEditProject/addProject.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OkayGo/Reports/TestResults___main__.TestOnboardWorker_2024-04-24_18-09-24.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OkayGo/Reports/TestResults___main__.TestOnboardWorker_2024-04-24_22-34-51.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OkayGo/Reports/TestResults___main__.TestOnboardWorker_2024-05-25_13-06-00.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qodana.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGEzedox/Resources/samplemportfileforBGV.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/OkayGo/OG_task/samplemportfileforBGV.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGEzedox/addtask.py" beforeDir="false" afterPath="$PROJECT_DIR$/OkayGo/OG_task/addtask.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OGEzedox/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/OkayGo/OG_task/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OkayGo/addEditProject/addProject.py" beforeDir="false" afterPath="$PROJECT_DIR$/OkayGo/addEditProject/addProject.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OkayGo/createEditEmployer/addEmployer.py" beforeDir="false" afterPath="$PROJECT_DIR$/OkayGo/createEditEmployer/addEmployer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OkayGo/createWorker/non-lmd_onboarding_template (4).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/OkayGo/createWorker/non-lmd_onboarding_template (4).xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OkayGo/createWorker/onboardWorker.py" beforeDir="false" afterPath="$PROJECT_DIR$/OkayGo/createWorker/onboardWorker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +44,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Himanshujd/Okaygo.git&quot;,
-    &quot;accountId&quot;: &quot;5b37f0c8-485d-4e26-96ec-6690aef06eaa&quot;
+    &quot;accountId&quot;: &quot;9d56cb34-83ec-4530-ba2f-b6ff6344ecf7&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -59,7 +55,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -74,53 +70,56 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for addEmployer.TestAddEmployer.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in addEmployer.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in addProject.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in base_test.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in login_page.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in onboardWorker.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_first_testcase.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_job_creation.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_onboard_worker.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_parameterize.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_validate_titles.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_wikipedia.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in testjob.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in workerAttendance.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.AbstractEx.executor&quot;: &quot;Run&quot;,
-    &quot;Python.addEmployer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conftest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.jobs_page.executor&quot;: &quot;Run&quot;,
-    &quot;Python.login_page.executor&quot;: &quot;Run&quot;,
-    &quot;Python.onboardWorker.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_first_testcase.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Workspace&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Downloads/pythonbasics/pythonbasics&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python tests.Python tests for addEmployer.TestAddEmployer.executor": "Run",
+    "Python tests.Python tests in addEmployer.py.executor": "Run",
+    "Python tests.Python tests in addProject.py.executor": "Run",
+    "Python tests.Python tests in addtask.py.executor": "Debug",
+    "Python tests.Python tests in base_test.py.executor": "Run",
+    "Python tests.Python tests in login_page.py.executor": "Run",
+    "Python tests.Python tests in onboardWorker.py.executor": "Run",
+    "Python tests.Python tests in test_first_testcase.py.executor": "Run",
+    "Python tests.Python tests in test_job_creation.py.executor": "Run",
+    "Python tests.Python tests in test_login.py.executor": "Run",
+    "Python tests.Python tests in test_onboard_worker.py.executor": "Run",
+    "Python tests.Python tests in test_parameterize.py.executor": "Run",
+    "Python tests.Python tests in test_validate_titles.py.executor": "Run",
+    "Python tests.Python tests in test_wikipedia.py.executor": "Run",
+    "Python tests.Python tests in testjob.py.executor": "Debug",
+    "Python tests.Python tests in updateStatus.py.executor": "Run",
+    "Python tests.Python tests in workerAttendance.py.executor": "Run",
+    "Python.AbstractEx.executor": "Run",
+    "Python.addEmployer.executor": "Run",
+    "Python.conftest.executor": "Run",
+    "Python.jobs_page.executor": "Run",
+    "Python.login_page.executor": "Run",
+    "Python.onboardWorker.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test_first_testcase.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "Workspace",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/user/Downloads/pythonbasics/pythonbasics",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "configurable.group.build"
   }
-}</component>
+}]]></component>
   <component name="QodanaCIConfigService">
     <option name="ciType" value="GITHUB" />
     <option name="path" value="$PROJECT_DIR$/.github/workflows/qodana_code_quality.yml" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/OkayGo/OG_task" />
       <recent name="D:\projects\workSpace" />
       <recent name="D:\projects\OkayGo\addEditProject" />
       <recent name="D:\projects\OkayGo\createWorker" />
       <recent name="D:\projects\OGEzedox\Resources" />
-      <recent name="D:\projects\Excels" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -131,112 +130,105 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in workerAttendance.py">
-    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="projects" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OkayGo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OkayGo/conftest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="jobs_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="projects" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OkayGo/testAddEditJob" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OkayGo/testAddEditJob/jobs_page.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_job_creation.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in addtask.py">
+    <configuration name="Python tests in addEmployer.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OkayGo/testAddEditJob" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OkayGo/createEditEmployer" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/OkayGo/testAddEditJob/test_job_creation.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/OkayGo/createEditEmployer/addEmployer.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in testjob.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in addProject.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OkayGo/testAddEditJob" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OkayGo/addEditProject" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/OkayGo/testAddEditJob/testjob.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/OkayGo/addEditProject/addProject.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in workerAttendance.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in addtask.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OkayGo/markAttedance" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OGEzedox" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/OkayGo/markAttedance/workerAttendance.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/OkayGo/OG_task/addtask.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in onboardWorker.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="projects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OkayGo/createWorker" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/OkayGo/createWorker/onboardWorker.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in updateStatus.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="projects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OkayGo/applicationDB" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/OkayGo/applicationDB/updateStatus.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.conftest" />
-      <item itemvalue="Python.jobs_page" />
-      <item itemvalue="Python tests.Python tests in workerAttendance.py" />
-      <item itemvalue="Python tests.Python tests in test_job_creation.py" />
-      <item itemvalue="Python tests.Python tests in testjob.py" />
+      <item itemvalue="Python tests.Python tests in addtask.py" />
+      <item itemvalue="Python tests.Python tests in addEmployer.py" />
+      <item itemvalue="Python tests.Python tests in addProject.py" />
+      <item itemvalue="Python tests.Python tests in onboardWorker.py" />
+      <item itemvalue="Python tests.Python tests in updateStatus.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in workerAttendance.py" />
-        <item itemvalue="Python tests.Python tests in testjob.py" />
-        <item itemvalue="Python.conftest" />
-        <item itemvalue="Python tests.Python tests in test_job_creation.py" />
-        <item itemvalue="Python.jobs_page" />
+        <item itemvalue="Python tests.Python tests in addtask.py" />
+        <item itemvalue="Python tests.Python tests in addProject.py" />
+        <item itemvalue="Python tests.Python tests in addEmployer.py" />
+        <item itemvalue="Python tests.Python tests in onboardWorker.py" />
+        <item itemvalue="Python tests.Python tests in updateStatus.py" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-abccbe9d933a-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.20224.428" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -314,6 +306,11 @@
           <url>file://$PROJECT_DIR$/AppiumTesting/pytestlearning/testingWeb.py</url>
           <line>2</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/OkayGo/OG_task/addtask.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

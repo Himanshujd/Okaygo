@@ -58,7 +58,7 @@ class TestAddEmployer(unittest.TestCase):
         except TimeoutException:
             print("Element not found or not clickable")
 
-        file_path = "D:/projects/OkayGo/createEditEmployer/download (5).png"
+        file_path = "/Users/himanshu.tiwari/Okaygo/OkayGo/createEditEmployer/download (5).png"
         print(f"Attempting to upload file: {file_path}")
 
         # Locate the file input element and send the file path to it

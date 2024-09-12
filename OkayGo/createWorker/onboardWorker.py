@@ -53,7 +53,7 @@ class TestOnboardWorker(unittest.TestCase):
 
     def upload_file(self):
         try:
-            file_path = "D:/projects/OkayGo/createWorker/non-lmd_onboarding_template (4).xlsx"
+            file_path = "/Users/himanshu.tiwari/Okaygo/OkayGo/createWorker/non-lmd_onboarding_template (4).xlsx"
             print(f"Attempting to upload file: {file_path}")
 
             file_input = self.driver_wait.until(
