@@ -40,6 +40,7 @@ class LoginAdminDashboard(unittest.TestCase):
         login_button.click()
         print('Second case- Incorrect username')
 
+    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
     # Third test case if user entered the Incorrect user_name
     def test_login3(self):
         self.driver.get("https://www.qa-eflex.okaygo.in/")

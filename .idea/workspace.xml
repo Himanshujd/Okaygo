@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b20b67bc-188b-465b-b172-d5eee3f962a6" name="Changes" comment="kk">
-      <change afterPath="$PROJECT_DIR$/OkayGo/applicationDB/updateStatus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OkayGo/applicationDB/update_status_timeout.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projects.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OGEzedox/Resources/samplemportfileforBGV.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/OkayGo/OG_task/samplemportfileforBGV.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OGEzedox/addtask.py" beforeDir="false" afterPath="$PROJECT_DIR$/OkayGo/OG_task/addtask.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OGEzedox/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/OkayGo/OG_task/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OkayGo/addEditProject/addProject.py" beforeDir="false" afterPath="$PROJECT_DIR$/OkayGo/addEditProject/addProject.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OkayGo/createEditEmployer/addEmployer.py" beforeDir="false" afterPath="$PROJECT_DIR$/OkayGo/createEditEmployer/addEmployer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OkayGo/createWorker/non-lmd_onboarding_template (4).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/OkayGo/createWorker/non-lmd_onboarding_template (4).xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OkayGo/createWorker/onboardWorker.py" beforeDir="false" afterPath="$PROJECT_DIR$/OkayGo/createWorker/onboardWorker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OkayGo/login/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/OkayGo/login/test_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +96,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/user/Downloads/pythonbasics/pythonbasics",
     "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "configurable.group.build"
+    "settings.editor.selected.configurable": "terminal"
   }
 }]]></component>
   <component name="QodanaCIConfigService">
@@ -161,7 +151,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in addtask.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in addtask.py" type="tests" factoryName="Autodetect" nameIsGenerated="true">
       <module name="projects" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,7 +205,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in addtask.py" />
         <item itemvalue="Python tests.Python tests in addProject.py" />
         <item itemvalue="Python tests.Python tests in addEmployer.py" />
         <item itemvalue="Python tests.Python tests in onboardWorker.py" />
@@ -306,11 +295,6 @@
           <url>file://$PROJECT_DIR$/AppiumTesting/pytestlearning/testingWeb.py</url>
           <line>2</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/OkayGo/OG_task/addtask.py</url>
-          <line>42</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
