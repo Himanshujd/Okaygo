@@ -34,7 +34,7 @@ class AddTask(unittest.TestCase):
             password_input.send_keys(PASSWORD)
 
             login_button = WebDriverWait(self.driver, 10).until(
-                EC.element_to_be_clickable((By.XPATH, "//button[@class='login_btn']"))
+                EC.visibility_of_element_located((By.XPATH, "//button[@class='login_btn']"))
             )
             login_button.click()
 
@@ -45,31 +45,21 @@ class AddTask(unittest.TestCase):
 
             # Wait for project dropdown to load
             project_dropdown = WebDriverWait(self.driver, 10).until(
-                EC.element_to_be_clickable((By.XPATH, '//*[@id="dropdownMenuButton"]'))
-
-            )
-            self.driver.execute_script("arguments[0].scrollIntoView(true);", project_dropdown)
-            project_dropdown.click()
-
-            # Select project from the dropdown
+                EC.visibility_of_element_located((By.XPATH, "//div[@id='dropdownMenuButton']/span")))
             project_dropdown.send_keys("Betterplace Field Verification Non Metro", Keys.RETURN)
 
             # Wait for "Add Task" button to load
             add_task_button = WebDriverWait(self.driver, 10).until(
-                EC.element_to_be_clickable((By.XPATH, '//*[@id="right_side"]/main/div[1]/div[2]/button[3]'))
-            )
+                EC.visibility_of_element_located((By.XPATH, "//div[@id='right_side']/main/div/div[2]/button[3]")))
             add_task_button.click()
 
             file_input = WebDriverWait(self.driver, 10).until(
-                EC.visibility_of_element_located((By.XPATH, "//input[@id='file_input_id']"))
-            )
+                EC.visibility_of_element_located((By.XPATH, "//input[@type='file']")))
             file_path = "D://projects/OGEzedox/Resources/samplemportfileforBGV.xlsx"
             file_input.send_keys(file_path)
 
-            # Upload button
             upload_button = WebDriverWait(self.driver, 10).until(
-                EC.visibility_of_element_located((By.XPATH, "/html/body/div[4]/div/div/div[3]/div/button"))
-            )
+                EC.visibility_of_element_located((By.XPATH, "/html/body/div[4]/div/div/div[3]/div/button")))
             upload_button.click()
 
         except TimeoutException as te:
