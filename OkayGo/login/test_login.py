@@ -54,7 +54,7 @@ class LoginAdminDashboard(unittest.TestCase):
                 EC.visibility_of_element_located((By.CLASS_NAME, "Header_logout__WB1NW")))
             self.assertTrue(dashboard_element.is_displayed(), "Login failed, dashboard not visible.")
             print('First case - Correct username and password')
-            self.login_successful = True  # Mark the login as successful
+            self.login_successful = True
         except TimeoutException:
             self.fail("Dashboard not found after successful login")
 

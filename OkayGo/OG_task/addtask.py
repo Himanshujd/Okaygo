@@ -38,7 +38,6 @@ class AddTask(unittest.TestCase):
             )
             login_button.click()
 
-            # Wait for the "busy_loader" overlay to disappear
             WebDriverWait(self.driver, 10).until(
                 EC.invisibility_of_element_located((By.CLASS_NAME, "busy_loader"))
             )
