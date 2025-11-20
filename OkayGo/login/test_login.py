@@ -51,7 +51,7 @@ class LoginAdminDashboard(unittest.TestCase):
         self.login("himanshu007", "Himanshu@123")
         try:
             dashboard_element = self.driver_wait.until(
-                EC.visibility_of_element_located((By.CLASS_NAME, "Header_logout__WB1NW")))
+                EC.visibility_of_element_located((By.CLASS_NAME, "HeaderV2_logout__-Pjup")))
             self.assertTrue(dashboard_element.is_displayed(), "Login failed, dashboard not visible.")
             print('First case - Correct username and password')
             self.login_successful = True

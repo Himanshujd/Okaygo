@@ -19,8 +19,10 @@ class TestAddEmployer(unittest.TestCase):
         cls.driver.maximize_window()
         cls.driver_wait = WebDriverWait(cls.driver, 10)
 
+
+
     def login(self, username, password):
-        self.driver.get("https://www.qa-eflex.okaygo.in/employer-data")
+        self.driver.get("https://www.admin-vapt.okaygo.in/")
         try:
             email_input = self.driver_wait.until(EC.visibility_of_element_located((By.ID, "emailId")))
             email_input.send_keys(username)
@@ -34,7 +36,7 @@ class TestAddEmployer(unittest.TestCase):
 
     def test_add_multiple_employers(self):
         """Test adding multiple employers in a loop"""
-        self.login("himanshu007", "Himanshu@123")
+        self.login("harsh123", "Harsh@123")
         num_employers_to_add = 1  # Set the number of employers you want to add
         for i in range(num_employers_to_add):
             print(f"Adding employer {i + 1} of {num_employers_to_add}")
@@ -107,24 +109,22 @@ class TestAddEmployer(unittest.TestCase):
             self.take_screenshot(f"element_timeout_error_{employer_number}.png")
             print(f"Element not found or not clickable for employer {employer_number}")
 
-def take_screenshot(self, filename):
-    """Take a screenshot of the current browser window."""
-    self.driver.save_screenshot(filename)
-    print(f"Screenshot saved as {filename}")
+    def take_screenshot(self, filename):
+        """Take a screenshot of the current browser window."""
+        self.driver.save_screenshot(filename)
+        print(f"Screenshot saved as {filename}")
 
+    def tearDown(self):
+        time.sleep(2)
 
-def tearDown(self):
-    time.sleep(2)
-
-
-@classmethod
-def tearDownClass(cls):
-    try:
-        cls.driver.close()
-        cls.driver.quit()
-        print("Test suite completed")
-    except WebDriverException as e:
-        print(f"WebDriverException occurred during tearDown: {e}")
+    @classmethod
+    def tearDownClass(cls):
+        try:
+            cls.driver.close()
+            cls.driver.quit()
+            print("Test suite completed")
+        except WebDriverException as e:
+            print(f"WebDriverException occurred during tearDown: {e}")
 
 
 if __name__ == '__main__':

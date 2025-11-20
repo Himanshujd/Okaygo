@@ -572,9 +572,9 @@ jQuery.cookie = function(name, value, options) {
     <body>
         <div id="container">
             <div id="header">
-                <div class="time" xmlns="">6.70 s</div>
+                <div class="time" xmlns="">30.16 s</div>
                 <h1>
-                    : <strong><span class="total" xmlns="http://www.w3.org/1999/xhtml">3 total, </span><span class="passed">3 passed</span></strong>
+                    : <strong><span class="total" xmlns="http://www.w3.org/1999/xhtml">3 total, </span><span class="failed">1 failed, </span><span class="passed">2 passed</span></strong>
                 </h1>
                 <div id="treecontrol">
                     <ul>
@@ -591,45 +591,41 @@ jQuery.cookie = function(name, value, options) {
             </div>
             <div id="content">
                 <ul id="tree">
-                    <li xmlns="" class="level top open">
+                    <li xmlns="" class="level top failed open">
                         <span><em class="time">
-                                <div class="time">6.70 s</div>
-                            </em>test_login</span>
+                                <div class="time">30.16 s</div>
+                            </em>login</span>
                         <ul>
-                            <li class="level suite open">
+                            <li class="level test">
                                 <span><em class="time">
-                                        <div class="time">6.70 s</div>
-                                    </em>LoginAdminDashboard</span>
+                                        <div class="time">3.77 s</div>
+                                    </em><em class="status">passed</em>test_login</span>
                                 <ul>
-                                    <li class="level test">
-                                        <span><em class="time">
-                                                <div class="time">3.48 s</div>
-                                            </em><em class="status">passed</em>test_01_login_valid</span>
-                                        <ul>
-                                            <li class="text">
-                                                <span class="stdout">PASSED           [ 33%]First case - Correct username and password<br/></span>
-                                            </li>
-                                        </ul>
+                                    <li class="text">
+                                        <span class="stdout">PASSED                                              [ 33%]<br/></span>
                                     </li>
-                                    <li class="level test">
-                                        <span><em class="time">
-                                                <div class="time">1.71 s</div>
-                                            </em><em class="status">passed</em>test_02_login_invalid_username</span>
-                                        <ul>
-                                            <li class="text">
-                                                <span class="stdout">PASSED [ 66%]Second case - Incorrect username<br/></span>
-                                            </li>
-                                        </ul>
+                                </ul>
+                            </li>
+                            <li class="level test">
+                                <span><em class="time">
+                                        <div class="time">4.82 s</div>
+                                    </em><em class="status">passed</em>test_onboarding</span>
+                                <ul>
+                                    <li class="text">
+                                        <span class="stdout">PASSED                                         [ 66%]<br/></span>
                                     </li>
-                                    <li class="level test">
-                                        <span><em class="time">
-                                                <div class="time">1.51 s</div>
-                                            </em><em class="status">passed</em>test_03_login_invalid_password</span>
-                                        <ul>
-                                            <li class="text">
-                                                <span class="stdout">PASSED [100%]Third case - Incorrect password<br/></span>
-                                            </li>
-                                        </ul>
+                                </ul>
+                            </li>
+                            <li class="level test failed open">
+                                <span><em class="time">
+                                        <div class="time">21.57 s</div>
+                                    </em><em class="status">failed</em>test_apply_job</span>
+                                <ul>
+                                    <li class="text">
+                                        <span class="stdout">FAILED                                          [100%]<br/></span>
+                                    </li>
+                                    <li class="text">
+                                        <span class="stderr">login.py:72 (test_apply_job)driver = <selenium.webdriver.chrome.webdriver.WebDriver (session="126fca44d68bee50369236d9de638748")><br/>wait = <selenium.webdriver.support.wait.WebDriverWait (session="126fca44d68bee50369236d9de638748")><br/>    def test_apply_job(driver, wait):<br/>        find_jobs_tab = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[contains(text(),'Find Jobs')]")))<br/>        find_jobs_tab.click()<br/>    <br/>        # Ensure vertical/job filter section is scrolled into view precisely<br/>>       vertical_anchor = wait.until(EC.presence_of_element_located((By.XPATH, "//h2[contains(text(), 'Filter')] | //h2[contains(text(), 'Jobs')]")))<br/>login.py:78: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/>self = <selenium.webdriver.support.wait.WebDriverWait (session="126fca44d68bee50369236d9de638748")><br/>method = <function presence_of_element_located.<locals>._predicate at 0x109f96de0><br/>message = ''<br/>    def until(self, method, message: str = ""):<br/>        """Calls the method provided with the driver as an argument until the \<br/>        return value does not evaluate to ``False``.<br/>    <br/>        :param method: callable(WebDriver)<br/>        :param message: optional message for :exc:`TimeoutException`<br/>        :returns: the result of the last call to `method`<br/>        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs<br/>        """<br/>        screen = None<br/>        stacktrace = None<br/>    <br/>        end_time = time.monotonic() + self._timeout<br/>        while True:<br/>            try:<br/>                value = method(self._driver)<br/>                if value:<br/>                    return value<br/>            except self._ignored_exceptions as exc:<br/>                screen = getattr(exc, "screen", None)<br/>                stacktrace = getattr(exc, "stacktrace", None)<br/>            time.sleep(self._poll)<br/>            if time.monotonic() > end_time:<br/>                break<br/>>       raise TimeoutException(message, screen, stacktrace)<br/>E       selenium.common.exceptions.TimeoutException: Message: <br/>E       Stacktrace:<br/>E       0   chromedriver                        0x000000010e5718b8 chromedriver + 5179576<br/>E       1   chromedriver                        0x000000010e5692ea chromedriver + 5145322<br/>E       2   chromedriver                        0x000000010e0e02b0 chromedriver + 389808<br/>E       3   chromedriver                        0x000000010e12c3e1 chromedriver + 701409<br/>E       4   chromedriver                        0x000000010e12c691 chromedriver + 702097<br/>E       5   chromedriver                        0x000000010e16e464 chromedriver + 971876<br/>E       6   chromedriver                        0x000000010e14e7dd chromedriver + 841693<br/>E       7   chromedriver                        0x000000010e16bb9b chromedriver + 961435<br/>E       8   chromedriver                        0x000000010e14e553 chromedriver + 841043<br/>E       9   chromedriver                        0x000000010e11f7f6 chromedriver + 649206<br/>E       10  chromedriver                        0x000000010e12005e chromedriver + 651358<br/>E       11  chromedriver                        0x000000010e534b20 chromedriver + 4930336<br/>E       12  chromedriver                        0x000000010e539a36 chromedriver + 4950582<br/>E       13  chromedriver                        0x000000010e53a105 chromedriver + 4952325<br/>E       14  chromedriver                        0x000000010e516ee9 chromedriver + 4808425<br/>E       15  chromedriver                        0x000000010e53a3f9 chromedriver + 4953081<br/>E       16  chromedriver                        0x000000010e508844 chromedriver + 4749380<br/>E       17  chromedriver                        0x000000010e5595c8 chromedriver + 5080520<br/>E       18  chromedriver                        0x000000010e559787 chromedriver + 5080967<br/>E       19  chromedriver                        0x000000010e568ece chromedriver + 5144270<br/>E       20  libsystem_pthread.dylib             0x00007ff805ab3df1 _pthread_start + 99<br/>E       21  libsystem_pthread.dylib             0x00007ff805aaf857 thread_start + 15<br/>../venv/lib/python3.11/site-packages/selenium/webdriver/support/wait.py:95: TimeoutException<br/></span>
                                     </li>
                                 </ul>
                             </li>
@@ -639,7 +635,7 @@ jQuery.cookie = function(name, value, options) {
             </div>
         </div>
         <div id="footer">
-            <p>Generated by PyCharm on 25/12/24, 10:16 am</p>
+            <p>Generated by PyCharm on 07/08/25, 11:30 am</p>
         </div>
     </body>
 </html>

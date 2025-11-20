@@ -19,7 +19,7 @@ class TestOnboardWorker(unittest.TestCase):
         print("Test suite started")
 
     def setUp(self):
-        self.driver.get("https://www.qa-eflex.okaygo.in/")
+        self.driver.get("https://www.admin-vapt.okaygo.in/")
         self.driver_wait = WebDriverWait(self.driver, 10)
 
     def test_upload_worker_data(self):
@@ -33,9 +33,9 @@ class TestOnboardWorker(unittest.TestCase):
 
     def login(self):
         email_input = self.driver_wait.until(EC.visibility_of_element_located((By.ID, "emailId")))
-        email_input.send_keys("himanshu007")
+        email_input.send_keys("harsh123")
         password_input = self.driver_wait.until(EC.visibility_of_element_located((By.ID, "password")))
-        password_input.send_keys("Himanshu@123")
+        password_input.send_keys("Harsh@123")
         login_button = self.driver_wait.until(
             EC.element_to_be_clickable((By.CLASS_NAME, "Login_loginButton__14J9m")))
         login_button.click()
