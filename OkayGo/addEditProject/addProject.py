@@ -52,7 +52,7 @@ class TestAddProject(unittest.TestCase):
             add_project.click()
 
             enter_project_name = self.driver_wait.until(
-                EC.visibility_of_element_located((By.XPATH, '//*[@id="outlined-adornment-weight"]')))
+                EC.visibility_of_element_located((By.ID, 'mui-1"]')))
             random_name = self.generate_random_name()
             enter_project_name.send_keys(random_name)
 
