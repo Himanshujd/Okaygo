@@ -1,5 +1,6 @@
 import unittest
-import time
+import timey
+
 import HtmlTestRunner
 from selenium import webdriver
 from selenium.common.exceptions import WebDriverException, TimeoutException
